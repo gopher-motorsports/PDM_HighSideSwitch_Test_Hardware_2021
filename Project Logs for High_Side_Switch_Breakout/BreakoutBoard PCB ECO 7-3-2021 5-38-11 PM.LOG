@@ -1,0 +1,9 @@
+Added Component: Designator=IC3(SOP65P640X120-17N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ti.com/lit/ds/symlink/tps1hb16-q1.pdf?ts=1598538997170&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS1HB16-Q1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TPS1HB16AQPWPRQ1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "595-TPS1HB16AQPWPRQ1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS1HB16AQPWPRQ1?qs=vmHwEFxEFR9VMSMq1HvLwg%3D%3D"; VariantName = "[No Variations]"

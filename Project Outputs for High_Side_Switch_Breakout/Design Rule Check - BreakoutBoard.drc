@@ -1,0 +1,76 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\Projects\High_Side_Switch_Breakout\BreakoutBoard.PcbDoc
+Date     : 7/3/2021
+Time     : 5:51:44 PM
+
+WARNING: Zero hole size multi-layer pad(s) detected
+   Pad Free-3(4830mil,2725mil) on Multi-Layer on Net GND
+   Pad Free-3(3905mil,3025mil) on Multi-Layer on Net GND
+
+WARNING: Unplated multi-layer pad(s) detected
+   Pad IC1-4(4490.669mil,2867.205mil) on Multi-Layer on Net NetIC1_4
+   Pad IC1-3(4490.669mil,2841.614mil) on Multi-Layer on Net NetIC1_3
+   Pad IC1-5(4490.669mil,2892.795mil) on Multi-Layer on Net NetIC1_5
+   Pad IC1-1(4490.669mil,2790.433mil) on Multi-Layer on Net GND
+
+WARNING: Multilayer Pads with 0 size Hole found
+   Pad IC1-4(4490.669mil,2867.205mil) on Multi-Layer
+   Pad IC1-3(4490.669mil,2841.614mil) on Multi-Layer
+   Pad IC1-5(4490.669mil,2892.795mil) on Multi-Layer
+   Pad IC1-1(4490.669mil,2790.433mil) on Multi-Layer
+   Pad Free-3(4830mil,2725mil) on Multi-Layer
+   Pad Free-3(3905mil,3025mil) on Multi-Layer
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+   Violation between Clearance Constraint: (Collision < 5mil) Between Pad P7-1(4500mil,2455mil) on Multi-Layer And Polygon Region (5 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 5mil) Between Pad P7-2(4400mil,2455mil) on Multi-Layer And Polygon Region (5 hole(s)) Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad P7-1(4500mil,2455mil) on Multi-Layer And Polygon Region (5 hole(s)) Bottom Layer Location : [X = 4500mil][Y = 2455mil]
+   Violation between Short-Circuit Constraint: Between Pad P7-2(4400mil,2455mil) on Multi-Layer And Polygon Region (5 hole(s)) Bottom Layer Location : [X = 4404.844mil][Y = 2455mil]
+Rule Violations :2
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint:  
+   Violation between Un-Routed Net Constraint: Net NetIC1_4 Between Track (4460.366mil,2863.346mil)(4486.811mil,2863.346mil) on Bottom Layer And Track (4486.811mil,2871.063mil)(4490.669mil,2867.205mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetIC1_5 Between Track (4460.366mil,2888.937mil)(4486.811mil,2888.937mil) on Bottom Layer And Track (4510.846mil,2892.795mil)(4517.579mil,2886.063mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net NetIC1_3 Between Track (4486.811mil,2837.756mil)(4490.669mil,2841.614mil) on Top Layer And Track (4490.669mil,2841.614mil)(4510.846mil,2841.614mil) on Bottom Layer 
+Rule Violations :4
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (9.843mil < 10mil) Between Pad IC1-1(4490.669mil,2790.433mil) on Multi-Layer And Track (4461.614mil,2767.795mil)(4519.685mil,2767.795mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [9.843mil]
+Rule Violations :1
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Track (4270mil,2460mil)(4270mil,2698.571mil) on Bottom Layer 
+Rule Violations :1
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 10
+Waived Violations : 0
+Time Elapsed        : 00:00:02
